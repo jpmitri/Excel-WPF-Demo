@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel_Functions", "Excel_Fu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI_001", "UI_001\UI_001.csproj", "{B42B1096-EB2E-4A11-9B1A-06C959CFCB9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List Generator", "List Generator\List Generator.csproj", "{BEE22B6B-2E65-4F3E-936C-15C94DE43B20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B42B1096-EB2E-4A11-9B1A-06C959CFCB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B42B1096-EB2E-4A11-9B1A-06C959CFCB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B42B1096-EB2E-4A11-9B1A-06C959CFCB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE22B6B-2E65-4F3E-936C-15C94DE43B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE22B6B-2E65-4F3E-936C-15C94DE43B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE22B6B-2E65-4F3E-936C-15C94DE43B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE22B6B-2E65-4F3E-936C-15C94DE43B20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

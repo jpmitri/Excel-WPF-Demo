@@ -3,15 +3,20 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:UI_001"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" ResizeMode="CanMinimize">
     <Grid>
-        <TextBlock x:Name="Selected_Files" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Selected Files" VerticalAlignment="Top" IsEnabled="False" ScrollViewer.HorizontalScrollBarVisibility="Auto" MaxHeight="70" MaxWidth="685"/>
-        <Button x:Name="SelectFile" Content="Select File" HorizontalAlignment="Left" Height="69" Margin="703,11,0,0" VerticalAlignment="Top" Width="87" Click="select_File"/>
-        <ComboBox x:Name="Option_Selector" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="Joker_Value" HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="70" MinWidth="70"/>
-        <Button x:Name="Save_Files_As" Content="Save As" HorizontalAlignment="Left" Height="69" Margin="703,103,0,0" VerticalAlignment="Top" Width="87" Click="save_File"/>
+        <TextBlock x:Name="Selected_Files" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap"
+                   Text="Selected Files" VerticalAlignment="Top" IsEnabled="False"
+                   ScrollViewer.HorizontalScrollBarVisibility="Auto" MaxHeight="70" MaxWidth="685" />
+        <Button x:Name="SelectFile" Content="Select File" HorizontalAlignment="Left" Height="69" Margin="703,11,0,0"
+                VerticalAlignment="Top" Width="87" Click="select_File" />
+        <ComboBox x:Name="Option_Selector" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top"
+                  Width="120" />
+        <TextBox x:Name="Joker_Value" HorizontalAlignment="Left" Margin="10,102,0,0" TextWrapping="Wrap"
+                 VerticalAlignment="Top" Height="70" MinWidth="70" />
+        <Button x:Name="Save_Files_As" Content="Save As" HorizontalAlignment="Left" Height="69" Margin="703,103,0,0"
+                VerticalAlignment="Top" Width="87" Click="save_File" />
 
     </Grid>
 </Window>
